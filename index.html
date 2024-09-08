@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <h1>Memory Card Game</h1>
+    <div class="game-container">
+        <div class="card" data-framework="1">
+            <img src="img/1.png" alt="Card 1">
+        </div>
+        <div class="card" data-framework="1">
+            <img src="img/1.png" alt="Card 1">
+        </div>
+        <div class="card " data-framework="2">
+            <img src="img/2.png" alt="Card 2">
+        </div>
+        <div class="card " data-framework="2">
+            <img src="img/2.png" alt="Card 2">
+        </div>
+        <div class="card " data-framework="3">
+            <img src="img/3.png" alt="Card 3">
+        </div>
+        <div class="card " data-framework="3">
+            <img src="img/3.png" alt="Card 3">
+        </div>
+        <div class="card " data-framework="4">
+            <img src="img/4.png" alt="Card 4">
+        </div>
+        <div class="card " data-framework="4">
+            <img src="img/4.png" alt="Card 4">
+        </div>
+        <div class="card " data-framework="5">
+            <img src="img/5.png" alt="Card 5">
+        </div>
+        <div class="card " data-framework="5">
+            <img src="img/5.png" alt="Card 5">
+        </div>
+        <div class="card " data-framework="6">
+            <img src="img/6.png" alt="Card 6">
+        </div>
+        <div class="card " data-framework="6">
+            <img src="img/6.png" alt="Card 6">
+        </div>
+        <div class="card " data-framework="7">
+            <img src="img/7.png" alt="Card 7">
+        </div>
+        <div class="card " data-framework="7">
+            <img src="img/7.png" alt="Card 7">
+        </div>
+        <div class="card " data-framework="8">
+            <img src="img/8.png" alt="Card 8">
+        </div>
+        <div class="card " data-framework="8">
+            <img src="img/8.png" alt="Card 8">
+        </div>
+    </div>
+    <button id="new-game">New Game</button>
+    <div class="scoreboard">
+        <p>Moves: <span id="moves">0</span></p>
+        <p>Time: <span id="time">0:00</span></p>
+    </div>
+    <div id="congrats-message" class="hidden">
+        <h2>Congratulations! You matched all pairs!</h2>
+        <p>It took you <span id="final-moves">0</span> moves and <span id ="final-time">0</span> minute.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+
