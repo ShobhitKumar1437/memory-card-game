@@ -3,7 +3,7 @@
 This is web-based Memory Card Game, a classic memory-testing game where players need to match pairs of cards. The project is built using HTML, CSS, and JavaScript to enhance front-end web development skills.
 
 # Demo 
-Check out the live demo of the game --> 
+Check out the live demo of the game -->  https://drive.google.com/drive/folders/1c4s5ueEnEwBWIMwdRJVsQoY5vNQLH7YK?usp=drive_link
 
 # Features 
 - Responsive design, works on both desktop and mobile devices.
